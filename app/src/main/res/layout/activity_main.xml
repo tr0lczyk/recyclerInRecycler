@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    tools:listitem="@layout/main_recycler_list_item">
+    tools:listitem="@layout/main_recycler_list_item"
+    android:layoutAnimation="@anim/layout_animation_fall_down">
 
 </android.support.v7.widget.RecyclerView>
